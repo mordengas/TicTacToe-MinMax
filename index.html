@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <main class="center"> 
+      <section id="start" style="display: block;">
+        <div class="title">Kółko i Krzyżyk</div>
+        <div id="controls"> 
+          <input type="button" onclick="start()" value="Rozpocznij Grę!">
+        </div>
+		<div> Gra losowo wybiera stronę rozpoczynającą.</div>
+      </section>
+      <section id="game" style="display: none;">
+        <section id="status"> 
+          <div class="title"></div>
+        </section>
+        <section id="board"> 
+          <div id="0" onclick="tileClick(this)"></div>
+          <div id="1" onclick="tileClick(this)"></div>
+          <div id="2" onclick="tileClick(this)"></div>
+          <div id="3" onclick="tileClick(this)"></div>
+          <div id="4" onclick="tileClick(this)"></div>
+          <div id="5" onclick="tileClick(this)"></div>
+          <div id="6" onclick="tileClick(this)"></div>
+          <div id="7" onclick="tileClick(this)"></div>
+          <div id="8" onclick="tileClick(this)"></div>
+        </section>
+      </section>
+      <section id="end" style="display: none;">
+        <div class="title">Koniec Gry</div>
+        <input type="button" onclick="window.location.href = window.location.href;" value="Nowa Gra">
+      </section>
+    </main>
+	<script src="minimax.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

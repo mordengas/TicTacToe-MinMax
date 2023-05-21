@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Moon Dance", cursive;
+  font-size: 36px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+input {
+  margin: auto;
+  display: block;
+}
+
+main {
+  width: fit-content;
+  height: fit-content;
+}
+
+.title {
+  font-size: 72px;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#board {
+  display: inline-grid;
+  grid-template-areas: "1 2 3" "4 5 6" "7 8 9";
+  font-size: 32px;
+  background-color: black;
+  row-gap: 1px;
+  column-gap: 1px;
+  width: 224px;
+}
+
+#board div {
+  background-color: white;
+  width: 74px;
+  height: 74px;
+  position: relative;
+  text-align: center;
+  vertical-align: center;
+  line-height: 74px;
+}
+
+#board div {
+  user-select: none;
+}
