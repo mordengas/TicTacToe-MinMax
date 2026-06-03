@@ -1,6 +1,6 @@
-TicTacToe-MinMax
+# TicTacToe-MinMax
 
-A simple, web-based Tic-Tac-Toe game powered by the **Min-Max algorithm**, originally created as a university class project. 
+A simple, web-based Tic-Tac-Toe game powered by the **Min-Max algorithm**, that I originally created as a university class project. 
 
 ## Modified Rules
 Please note that this game uses a reversed rule set. Unlike standard Tic-Tac-Toe, the player who places three of their marks in a row (horizontally, vertically, or diagonally) loses the game.
