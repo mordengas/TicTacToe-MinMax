@@ -2,12 +2,9 @@ TicTacToe-MinMax
 
 A simple, web-based Tic-Tac-Toe game powered by the **Min-Max algorithm**, originally created as a university class project. 
 
-**⚠️ Important Rule Twist:** This is not your standard Tic-Tac-Toe! In this version, **whoever gets three characters in a line LOSES the game.** ## Features
-* **Unbeatable AI:** Powered by the Minimax algorithm, making the computer a formidable opponent.
-* **Modified Rules:** Misère play style where making a line of three means you lose.
-* **Random Start:** The game randomly decides whether the player or the AI goes first.
-* **Clean UI:** Simple web interface with a custom font layout.
-
+## Modified Rules
+Please note that this game uses a reversed rule set. Unlike standard Tic-Tac-Toe, the player who places three of their marks in a row (horizontally, vertically, or diagonally) loses the game.
+The game randomly decides whether the player or the AI goes first.
 ## Technologies Used
 * HTML5
 * CSS3
